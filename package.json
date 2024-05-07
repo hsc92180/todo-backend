@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Backend for todo list",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "apis"
+  ],
+  "author": "Himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.0"
+  }
+}
